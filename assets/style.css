@@ -62,8 +62,12 @@ a {
 
 /* HOME */
 
+h1{
+  color: #f15a25;
+}
+
 section#home {
-  height: calc(100vh + 80px);
+  height: calc(60vh);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -75,12 +79,12 @@ section#home {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 5px;
   text-align: justify;
 }
 
 .home-img img {
-    width: 200px;
+    width: 400px;
     height: 200px;
     animation: float 5s ease-in-out infinite;
   }
@@ -100,7 +104,7 @@ main.cards {
     padding: 32px;
 }
 
-main.cards section.card {
+main.cards section.oquefazer {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -111,16 +115,54 @@ main.cards section.card {
     margin-left: 32px;
 }
 
-main.cards section.card:first-child {
-    margin-left: 0;
+main.cards section.oquenaofazer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  max-height: 468px;
+  margin-left: 32px;
 }
 
-main.cards section.card h3 {
-    font-size: 100%;
-    margin: 16px 0;
+main.cards {
+  display: flex;
+  padding: 32px;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+main.cards section.oquefazer {
+  box-shadow: 20px 20px 50px -30px #ff8254;
+}
+
+main.cards section.oquenaofazer {
+  box-shadow: 20px 20px 50px -30px #ff8254;
+}
+
+h3{
+  color: #f15a25;
 }
 
 /* TIPOS DE QUEIMADURAS */
+
+h2{
+  color:#f15a25 ;
+}
 
 section#tiposdequeimaduras {
   height: calc(100vh + 80px);
