@@ -147,11 +147,19 @@ main.cards section.card:first-child {
   margin-left: 0;
 }
 main.cards section.oquefazer {
-  box-shadow: 20px 20px 50px -30px #ff8254;
+  box-shadow: 20px 20px 40px -10px #ff8254;
 }
 
 main.cards section.oquenaofazer {
-  box-shadow: 20px 20px 50px -30px #ff8254;
+  box-shadow: 20px 20px 40px -10px #ff8254;
+}
+
+main.cards section.oquefazer:hover{
+  transform: scale(1.1);
+}
+
+main.cards section.oquenaofazer:hover{
+  transform: scale(1.1);
 }
 
 h3{
