@@ -121,22 +121,26 @@ main.cards section.oquefazer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #ffffff;
+  background: #c24315;
   padding: 1rem 1.5rem;
   border-radius: 5px;
   max-height: 468px;
   margin-left: 32px;
+  cursor: pointer;
+  color: #ffffff;
 }
 
-main.cards section.oquenaofazer {
+main.cards section.oquenaofazer{
 display: flex;
 flex-direction: column;
 text-align: center;
-background: #ffffff;
+background: #c24315;
 padding: 1rem 1.5rem;
 border-radius: 5px;
 max-height: 468px;
 margin-left: 32px;
+cursor: pointer;
+color: #ffffff;
 }
 
 main.cards {
@@ -160,11 +164,11 @@ main.cards section.card:first-child {
 margin-left: 0;
 }
 main.cards section.oquefazer {
-box-shadow: 20px 20px 40px -10px #ff8254;
+box-shadow: 20px 20px 40px -10px #9e9e9e;
 }
 
 main.cards section.oquenaofazer {
-box-shadow: 20px 20px 40px -10px #ff8254;
+box-shadow: 20px 20px 40px -10px #8a8686;
 }
 
 main.cards section.oquefazer:hover{
@@ -176,7 +180,7 @@ transform: scale(1.1);
 }
 
 h3{
-color: #f15a25;
+color: #000000;
 }
 
 /* TIPOS DE QUEIMADURAS */
