@@ -78,8 +78,9 @@ section#home {
 button{
   background-color: #f15a25;
   border-radius: 5px;
-  width: 300px;
   color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .home-info {
@@ -227,6 +228,9 @@ section#tiposdequeimaduras {
 .swiper-pagination-bullet-active {
   background-color: #f15a25 ;
 }
+
+/* VOLTAR PARA CIMA DA PÁGINA */
+
 
 /* FOOTER */
 
