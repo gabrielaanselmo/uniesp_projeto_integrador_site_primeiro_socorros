@@ -30,7 +30,10 @@
         <button onclick="alerta()">Está precisando de ajuda?</button>
         <script>
           function alerta(){
-              alert("Em casos de queimaduras graves ligue para os serviços de emergência: Samu 192 ou Bombeiros 193")
+            swal({
+            text: "Em casos de queimaduras graves ligue para os serviços de emergência: Samu 192 ou Bombeiros 193",
+            icon: "warning",
+                            });
           }
         </script>
         </span>
@@ -108,5 +111,6 @@
   </main>  
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

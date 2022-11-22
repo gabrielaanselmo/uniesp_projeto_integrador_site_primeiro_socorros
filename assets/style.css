@@ -75,10 +75,6 @@ section#home {
   width: 100%;
 }
 
-.alerta {
-  display: flex;
-}
-
 button{
   background-color: #f15a25;
   border-radius: 5px;
