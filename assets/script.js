@@ -12,22 +12,23 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: true,
   });
 
-  const scrollBtn = document.querySelector(".scroll-to-top");
-
-const refreshButtonVisibility = () => {
-  if (document.documentElement.scrollTop <= 150) {
-    scrollBtn.style.display = "none";
-  } else {
-    scrollBtn.style.display = "block";
-  }
-};
-refreshButtonVisibility();
-
-scrollBtn.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
-
-document.addEventListener("scroll", (e) => {
-  refreshButtonVisibility();
-});
+  let calcScrollValue = () => {
+    let scrollProgress = document.getElementById("progress");
+    let progressValue = document.getElementById("progress-value");
+    let pos = document.documentElement.scrollTop;
+    let calcHeight =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    let scrollValue = Math.round((pos * 100) / calcHeight);
+    if (pos > 100) {
+      scrollProgress.style.display = "grid";
+    } else {
+      scrollProgress.style.display = "none";
+    }
+    scrollProgress.addEventListener("click", () => {
+      document.documentElement.scrollTop = 0;
+    });
+    scrollProgress.style.background = `conic-gradient(#03cc65 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+  };
+  window.onscroll = calcScrollValue;
+  window.onload = calcScrollValue;

@@ -239,14 +239,28 @@ section#tiposdequeimaduras {
 }
 
 /* SCROLL TO TOP */
-.scroll-to-top {
+#progress {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  width: 80px;
-  font-size: 40px;
-  color: white;
-  background: #f15a25;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #f15a25;
 }
 
 /* FOOTER */
