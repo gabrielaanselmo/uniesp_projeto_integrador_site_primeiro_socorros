@@ -238,6 +238,17 @@ section#tiposdequeimaduras {
   background-color: #f15a25 ;
 }
 
+/* SCROLL TO TOP */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  font-size: 40px;
+  color: white;
+  background: #f15a25;
+}
+
 /* FOOTER */
 
 footer {
