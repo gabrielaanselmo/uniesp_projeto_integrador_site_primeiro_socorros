@@ -1,9 +1,9 @@
 # Projeto Integrador - Site de Primeiro Socorros
 > Status do projeto: Finalizado.
-> 
-## 🧑🏻‍💻 Equipe
 
-Nossa equipe é composta pelos seguintes integrantes:
+
+## 🙋 Equipe de Desenvolvimento
+Tivemos a honra de contar com uma equipe dedicada e talentosa para a realização deste projeto. Os membros da equipe são:
 
 ### - Maria Gabriela Anselmo de Souza Batista
 ### - Diego de Oliveira Santana Cipirano
@@ -12,15 +12,11 @@ Nossa equipe é composta pelos seguintes integrantes:
 ### - Daniel Pontes
 ### - Willames
 
-## 📋 Sobre o Site de Primeiro Socorros
-É um projeto, projetado para fornecer informações essenciais e orientações de emergência em momentos críticos. Desenvolvido como uma iniciativa para promover a segurança e o bem-estar, reúne conhecimentos médicos e recursos digitais para oferecer um suporte vital aos usuários.
+## 🚑 Sobre o Site de Primeiros Socorros
+Este projeto foi idealizado e desenvolvido com o propósito de disponibilizar informações cruciais e diretrizes para situações de emergência, visando promover a segurança e o bem-estar dos usuários. Combina expertise médica com tecnologia digital, transformando-se em um recurso vital acessível a todos.
 
-## 👾 Tecnologias usadas
-![organização](https://github.com/gabrielaanselmo/uniesp_projeto_integrador_site_primeiro_socorros/assets/112910372/c495eb18-e3bf-40e0-bb3b-795adfd0d382)
-
-## 🏥 Site desenvolvido
-![telaprincipal](https://github.com/gabrielaanselmo/uniesp_projeto_integrador_site_primeiro_socorros/assets/112910372/c7f2d0c2-5876-4889-8336-c59518a100b7)
-![telaprincipal1](https://github.com/gabrielaanselmo/uniesp_projeto_integrador_site_primeiro_socorros/assets/112910372/8023dee8-0eab-4140-8f63-d2a7eb32a2db)
+## 🛠 Tecnologias Empregadas
+O site foi construído utilizando JavaScript, HTML5 e CSS3, proporcionando uma experiência interativa e responsiva. A programação em JavaScript permitiu a implementação de funcionalidades dinâmicas, garantindo que os usuários tenham acesso a informações confiáveis e atualizadas de maneira rápida e eficiente.
 
 
 
